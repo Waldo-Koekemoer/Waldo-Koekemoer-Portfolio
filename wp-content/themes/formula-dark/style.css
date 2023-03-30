@@ -1,0 +1,40 @@
+/*
+Theme Name: Formula Dark
+Theme URI: https://awplife.com/wordpress-themes/formula-premium/
+Template: formula
+Author: A WP Life
+Author URI: http://awplife.com/
+Description: Lightning Fast Speed &amp; Responsive Theme. Formula Dark is a responsive and fully customizable theme to create any kind of websites. The advanced admin panel will enable you to customize it without any technical knowledge. This theme is lightweight, it will enable you to create almost any type of website such a blog, portfolio, news, newspaper, mega magazine, dark business , architecture, interior design, decoration, furniture, home decor, construction, corporate, agency, business promotion, industries, Beauty &amp; spa salons, photography, gym, fitness, health, medical, startups, business agencies, law firms, travel, education, university portal, restaurant, meta shop, quick magazines, finance, accounting, consulting, travel agency website. Theme is fully compatible with popular WordPress plugins like Elementor Page Builder, Slider, Carousal, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Shortcode, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and many more. If you are looking for a dark and easy to use theme, don´t go astray. You just found it!
+Tags: blog,portfolio,news,grid-Layout,one-column,two-columns,three-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-logo,custom-menu,featured-images,footer-widgets,full-width-template,post-formats,rtl-language-support,sticky-post,translation-ready
+Version: 0.0.6
+Tested up to: 6.1
+Requires PHP: 5.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: formula-dark
+*/
+
+
+
+/*--------------------------------------------------------------
+# Index
+--------------------------------------------------------------*/
+.blog-head {
+    /* background-color: #0f0d1de8; */
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-left: 20px;
+    padding: 10px 17px 10px;
+    transition: all 500ms ease;
+}
+
+.blog .full-content {
+    margin-left: 0px;
+    padding: 10px 20px 10px;
+}
+
+.blog .entry-title {
+    font-size: 22px;
+    font-weight: 500;
+}

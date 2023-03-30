@@ -1,0 +1,8 @@
+/********* Menu Animation flip **********/
+
+nav ul li:hover > ul {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}

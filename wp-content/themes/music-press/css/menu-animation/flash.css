@@ -1,0 +1,6 @@
+/********* Menu Animation flash **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}

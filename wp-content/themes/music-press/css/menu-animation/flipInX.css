@@ -1,0 +1,8 @@
+/********* Menu Animation flipInX **********/
+
+nav ul li:hover > ul {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}

@@ -1,0 +1,160 @@
+select option[value="Arial"]{
+	font-family: 'Arial', 'sans-serif';
+}
+select option[value="Arial-Black"]{
+	font-family: 'Arial Black', 'sans-serif';
+}
+select option[value="Verdana"]{
+	font-family: 'Verdana', 'sans-serif';
+}
+select option[value="Tahoma"]{
+	font-family: 'Tahoma', 'sans-serif';
+}
+select option[value="Trebuchet-MS"]{
+	font-family: 'Trebuchet MS', 'sans-serif';
+}
+select option[value="Impact"]{
+	font-family: 'Impact', 'sans-serif';
+}
+select option[value="Times New Roman"]{
+	font-family: 'Times New Roman', 'sans-serif';
+}
+select option[value="Courier"]{
+	font-family: 'Courier', 'sans-serif';
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/oswald/Oswald-Regular.woff") format('woff'),
+    url("../fonts/oswald/Oswald-Bold.woff") format('woff'),
+    url("../fonts/oswald/Oswald-ExtraLight.woff") format('woff'),
+    url("../fonts/oswald/Oswald-Light.woff") format('woff'),
+    url("../fonts/oswald/Oswald-Medium.woff") format('woff'),
+    url("../fonts/oswald/Oswald-SemiBold.woff") format('woff');
+}
+
+select option[value="Oswald"]{
+	font-family: 'Oswald', 'sans-serif';
+	font-weight: 600;
+}
+/******************** Metboxes *****************/
+
+.edit-post-meta-boxes-area #mp_artist_metaboxes h2 {
+    font-size: 22px;
+    font-weight: bold !important;
+    background: #333;
+    color: #fff !important;
+    padding: 30px !important;
+	display: block !important;
+}
+
+.fon .prev_img_mp {
+	width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+	object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.gallery_mp td {
+	margin-top: 5px;
+	height: 50px;
+    top: 50%;
+  -ms-transform: translateY(-50%);
+    transform: translateY(-50%);	
+}
+.gallery_mp td a {
+	vertical-align: middle;
+}
+
+.gallery_mp {
+	display: block;
+}
+.mp-options td {
+	border: 1px solid #eee;
+	padding: 5px 10px;
+}
+
+.fon a {
+	border: 0;
+	outline: 0;
+	box-shadow: none;
+}
+.fon a:hover {
+	opacity: 0.8;
+}
+
+.fon audio {
+    height: 30px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+
+
+		.edit-post-layout__metaboxes input[type="checkbox"] {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			-webkit-tap-highlight-color: transparent;
+			width: auto;
+			height: auto;
+			vertical-align: middle;
+			position: relative;
+			border: 0;
+			outline: 0;
+			cursor: pointer;
+			background: none;
+			box-shadow: none;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"]:focus {
+			box-shadow: none;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"]:after {
+			content: '';
+			font-size: 8px;
+			font-weight: 400;
+			line-height: 18px;
+			text-indent: -14px;
+			color: #ffffff;
+			width: 36px;
+			height: 18px;
+			display: inline-block;
+			background-color: #064441;
+			border-radius: 72px;
+			box-shadow: 0 0 12px rgb(0 0 0 / 15%) inset;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"]:before {
+			content: '';
+			width: 14px;
+			height: 14px;
+			display: block;
+			position: absolute;
+			top: 2px;
+			left: 2px;
+			margin: 0;
+			border-radius: 50%;
+			background-color: #ffffff;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"]:checked:before {
+			left: 20px;
+			margin: 0;
+			background-color: #ffffff;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"],
+		.edit-post-layout__metaboxes input[type="checkbox"]:before,
+		.edit-post-layout__metaboxes input[type="checkbox"]:after,
+		.edit-post-layout__metaboxes input[type="checkbox"]:checked:before,
+		.edit-post-layout__metaboxes input[type="checkbox"]:checked:after {
+			transition: ease .15s;
+		}
+		.edit-post-layout__metaboxes input[type="checkbox"]:checked:after {
+			content: 'ON';
+			background-color: #064441;
+		}
+
+

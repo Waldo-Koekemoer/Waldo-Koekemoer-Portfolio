@@ -1,0 +1,6 @@
+/********* Menu Animation rotateIn **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}

@@ -1,0 +1,8 @@
+/********* Menu Animation lightSpeedIn **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}

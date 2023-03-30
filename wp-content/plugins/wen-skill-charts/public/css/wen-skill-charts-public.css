@@ -1,0 +1,309 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* common  starts */
+.wen-skill-charts-wrap{
+  clear: both;
+  height: auto;
+  overflow: hidden;
+}
+.skill-percentage {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  font-size: .9em;
+  font-weight: bold;
+}
+.skill-percentage:after {
+  content: '%';
+  font-size: .9em;
+}
+.skill-wrap{
+ margin-bottom:10px;
+}
+.skill-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.skill-description{
+ font-size: .9em;
+ padding-bottom: 10px;
+}
+
+/* common  ends */
+
+/* circle  starts */
+.wen-skill-circle{
+  text-align: center;
+  margin: 0 auto;
+}
+.skill-circle-wrap {
+    position: relative;
+    display: block;
+
+    text-align: center;
+    float: left;
+}
+.wen-skill-circle .skill-wrap {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.skill-circle-wrap .skill-percentage {
+  line-height: 110px;
+  display: none;
+}
+.skill-circle-wrap .skill-percentage:after {
+  margin-left: 0.1em;
+  font-size: .9em;
+}
+.wen-skill-circle .skill-title,
+.wen-skill-circle .skill-description{
+  text-align: center;
+}
+
+/* circle  ends */
+
+/* bar  starts */
+.skill-bar-wrap {
+  position: relative;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  background: #EEEEEE;
+  height: 35px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+
+.skill-bar-wrap .skill-bar {
+  height: 35px;
+  width: 0px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.skill-bar-wrap .skill-percentage-position-right{
+  right: 10px;
+}
+.skill-bar-wrap .skill-percentage-position-left{
+  left: 10px;
+}
+.skill-bar-wrap .skill-percentage-position-middle{
+  left: 48%;
+}
+/* bar  ends */
+
+
+.skill-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+.skill-description {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.skill-circle-wrap {
+    position: relative;
+    display: block;
+
+    text-align: center;
+    float: left;
+}
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 41%;
+}
+
+
+/*new css*/
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* common  starts */
+.wen-skill-charts-wrap{
+  clear: both;
+  height: auto;
+  overflow: hidden;
+}
+.skill-percentage {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  font-size: .9em;
+  font-weight: bold;
+}
+.skill-percentage:after {
+  content: '%';
+  font-size: .9em;
+}
+.skill-wrap{
+ margin-bottom:10px;
+}
+.skill-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.skill-description{
+ font-size: .9em;
+ padding-bottom: 10px;
+}
+
+/* common  ends */
+
+/* circle  starts */
+.wen-skill-circle{
+  text-align: center;
+  margin: 0 auto;
+}
+.skill-circle-wrap {
+    position: relative;
+    display: block;
+
+    text-align: center;
+    float: left;
+}
+.wen-skill-circle .skill-wrap {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.skill-circle-wrap .skill-percentage {
+  line-height: 110px;
+  display: none;
+}
+.skill-circle-wrap .skill-percentage:after {
+  margin-left: 0.1em;
+  font-size: .9em;
+}
+.wen-skill-circle .skill-title,
+.wen-skill-circle .skill-description{
+  text-align: center;
+}
+
+/* circle  ends */
+
+/* bar  starts */
+.skill-bar-wrap {
+  position: relative;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  background: #EEEEEE;
+  height: 35px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+
+.skill-bar-wrap .skill-bar {
+  height: 35px;
+  width: 0px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.skill-bar-wrap .skill-percentage-position-right{
+  right: 10px;
+}
+.skill-bar-wrap .skill-percentage-position-left{
+  left: 10px;
+}
+.skill-bar-wrap .skill-percentage-position-middle{
+  left: 48%;
+}
+/* bar  ends */
+
+
+.skill-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+.skill-description {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.skill-circle-wrap {
+    position: relative;
+    display: block;
+    text-align: center;
+    float: none;
+    width: auto;
+    width: 100%;
+}
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+.skill-circle-wrap .skill-percentage {
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    width: 100%;
+}

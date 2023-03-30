@@ -1,0 +1,33 @@
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: #008989;
+	z-index: 9;
+	color: #fff;
+	visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+}
+
+.cd-top .dashicons{
+	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top--fade-out {
+    opacity: 0.5;
+}
+.cd-top:hover {
+    opacity: 1;
+		color: #fff;
+}

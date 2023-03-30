@@ -1,0 +1,6 @@
+/********* Menu Animation slideInDown **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}

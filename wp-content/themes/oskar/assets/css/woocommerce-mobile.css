@@ -1,0 +1,83 @@
+/*
+Theme Name: Oskar
+Description: Responsive styling for WooCommerce - mobile - default max 768px
+*/
+
+.site-header .top-account:hover .mini-account,
+.site-header .top-cart:hover .mini-cart {
+	transform: translateY(-480px);
+	visibility: hidden;
+	z-index: -99;
+}
+
+.site-header a.oskar-cart .item-count,
+.site-header a.oskar-wishlist .wishlist_products_counter_number,
+.site-header a.wishlist_products_counter .wishlist_products_counter_number {
+	top: -2px;
+}
+
+.site-header a.oskar-cart {
+	margin-right: 12px;
+}
+
+.site-header a.oskar-cart.items {
+	padding: 5px 10px;
+}
+
+.woocommerce ul.products.columns-2,
+.woocommerce-page ul.products.columns-2,
+.woocommerce ul.products.columns-3,
+.woocommerce-page ul.products.columns-3,
+.woocommerce ul.products.columns-4,
+.woocommerce-page ul.products.columns-4,
+.woocommerce ul.products.columns-5,
+.woocommerce-page ul.products.columns-5,
+.woocommerce ul.products.columns-6,
+.woocommerce-page ul.products.columns-6,
+.woocommerce ul.products.columns-7,
+.woocommerce-page ul.products.columns-7,
+.woocommerce ul.products.columns-8,
+.woocommerce-page ul.products.columns-8,
+.wc-block-grid.has-3-columns .wc-block-grid__products,
+.wc-block-grid.has-4-columns .wc-block-grid__products,
+.wc-block-grid.has-5-columns .wc-block-grid__products,
+.wc-block-grid.has-6-columns .wc-block-grid__products,
+.wc-block-grid.has-7-columns .wc-block-grid__products,
+.wc-block-grid.has-8-columns .wc-block-grid__products {
+	display: grid;
+	grid-template-columns: 49% 49%;
+}
+
+.woocommerce ul.products[class*="columns-"] li.product,
+.woocommerce-page ul.products[class*="columns-"] li.product {
+	width: auto;
+	margin: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+	flex-direction: column;
+}
+
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li,
+.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li {
+	border-bottom: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:not(:first-child) {
+	border-left: 1px solid var(--wp--preset--color--fg-very-light);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:first-child {
+	border-top-right-radius: var(--radius--button);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:last-child,
+.woocommerce div.product .woocommerce-tabs .panel {
+	border-top-right-radius: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+	padding-bottom: var(--padding--button--v);
+}

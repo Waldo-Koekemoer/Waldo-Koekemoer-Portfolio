@@ -1,0 +1,6 @@
+/********* Menu Animation rollIn **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}

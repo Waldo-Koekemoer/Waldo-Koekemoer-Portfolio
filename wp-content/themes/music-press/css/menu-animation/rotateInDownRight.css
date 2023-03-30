@@ -1,0 +1,6 @@
+/********* Menu Animation rotateInDownRight **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+}

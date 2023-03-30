@@ -1,0 +1,303 @@
+
+
+body  {
+    background: #333;
+}
+
+body .main-navigation ul ul,
+body #secondary section,
+body article {
+    background: #222;	
+}
+
+body #secondary ul li a:hover {
+    color: #008989;
+} 
+
+body #search-by-price {
+	color: #C0C0C0;
+}
+
+body .search-category .mp-details .mp-1,
+body .search-category .mp-details .mp-2,
+body .search-category .mp-details .mp-3 {
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+	
+}
+
+body .portfolio-cont .button-group a {
+	color: #C0C0C0;
+}
+
+body .portfolio-cont .button-group a:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: calc(4px/ -1);
+  left: calc(4px/ -1);
+  background: linear-gradient(to right, #999 0%, #999 100%), linear-gradient(to top, #999 50%, transparent 50%), linear-gradient(to top, #999 50%, transparent 50%), linear-gradient(to right, #999 0%, #999 100%), linear-gradient(to left, #999 0%, #999 100%);
+  background-size: 100% 4px, 4px 200%, 4px 200%, 0% 4px, 0% 4px;
+  background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+  transform: scaleX(0) rotate(180deg);
+  transition-delay: 0.2s, 0.2s, 0s;
+}
+
+body #secondary section,
+body article,
+body #commentform textarea {
+	border: 1px solid #444;
+}
+
+body .lt-content h2,
+body .lt-title h4,
+body .select-items div, body .select-selected {
+	color: #C0C0C0;
+}
+
+body .select-items {
+	border: none;
+	}
+
+body .page-header .page-title,
+body .select-items div,
+body .s-input,
+body form select option,
+body .custom-select{
+    background: #222;	
+	color: #C0C0C0;
+	border: 1px solid #444;	
+}
+
+body .category .mp-details,
+body .search-category .mp-details{
+    background: #222;		
+}
+
+body .cont-author,
+body .cont-date,
+body .cont-portfolio,
+body .cont-edit,
+body .cont-comments,
+body .cont-tags {
+    background: #333;	
+	color: #eee;
+	border: 1px solid #111;
+}
+
+body .lt-container::after,
+body .lt-body {
+  background-color: #444;	
+}
+
+
+body .lt-content {
+  background-color: #222;		
+}
+
+body .lt-right::before{
+    border-color: transparent #222 transparent transparent;	
+}
+
+body .lt-left::before {
+    border-color: transparent transparent transparent #222;
+}
+
+body .lt-timeline::after {
+  background-color: #222;		
+}
+
+body .wp-block-embed figcaption {
+    color: #C0C0C0;
+}
+
+body input[type="text"],
+body input[type="email"],
+body input[type="url"],
+body input[type="password"],
+body input[type="search"],
+body input[type="number"],
+body input[type="tel"],
+body input[type="range"],
+body input[type="date"],
+body input[type="month"],
+body input[type="week"],
+body input[type="time"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="color"],
+body textarea,
+body,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .entry-footer a,
+body .main-navigation ul ul a,
+body .entry-meta .dashicons, 
+body .entry-footer .dashicons {
+	color: #C0C0C0;	
+}
+
+body .page-header .page-title, 
+body .category .page-header .page-title {
+    background: #222 !important;
+    border: 1px solid #555 !important;	
+}
+
+body .container-slider .autoplay1 h3 a:hover {
+    color: cyan;	
+}
+
+body .entry-header .entry-title,
+body .testimonial-text a {
+	color: #C0C0C0;
+}
+
+body .about_us-hide-img {
+    border: 12px solid #444;
+	box-shadow: 5px 5px 5px #111;
+}
+
+body .container-slider .autoplay1 h3 a:hover {
+    color: cyan;
+}
+
+body .testimonials-cont .testimonials-wrap .slick-prev:hover,
+body .testimonials-cont .testimonials-wrap .slick-next:hover,
+body .testimonials-cont .testimonials-wrap .slick-prev:before,
+body .testimonials-cont .testimonials-wrap .slick-next:before {
+	color: #888;
+	background-color: unset !important;
+	box-shadow: none;
+}
+
+body .about_us-hide-img:hover .b-shadow {
+    background-image: url(../about-us/bubble1.png);
+   -webkit-filter: drop-shadow(5px 5px 5px #000);
+	filter: drop-shadow(5px 5px 5px #000);	
+}
+
+body form select,
+body form input[type="text"],
+body form input[type="email"],
+body form input[type="url"],
+body form input[type="password"],
+body form input[type="search"],
+body form input[type="number"],
+body form input[type="tel"],
+body form input[type="range"],
+body form input[type="date"],
+body form input[type="month"],
+body form input[type="week"],
+body form input[type="time"],
+body form input[type="datetime"],
+body form input[type="datetime-local"],
+body form input[type="color"], body textarea {
+	border: 1px solid #444;		
+}
+
+body form select:focus,
+body form input[type="text"]:focus,
+body form input[type="email"]:focus,
+body form input[type="url"]:focus,
+body form input[type="password"]:focus,
+body form input[type="search"]:focus,
+body form input[type="number"]:focus,
+body form input[type="tel"]:focus,
+body form input[type="range"]:focus,
+body form input[type="date"]:focus,
+body form input[type="month"]:focus,
+body form input[type="week"]:focus,
+body form input[type="time"]:focus,
+body form input[type="datetime"]:focus,
+body form input[type="datetime-local"]:focus,
+body form input[type="color"]:focus
+body textarea:focus {
+    background: #444;
+	color: #C0C0C0;
+	border: 1px solid #444;
+}
+
+body .select-items div:hover, body .same-as-selected {
+    background-color: #555;
+}
+
+body form select,
+body form input[type="text"],
+body form input[type="email"],
+body form input[type="url"],
+body form input[type="password"],
+body form input[type="search"],
+body form input[type="number"], 
+body form input[type="tel"], 
+body form input[type="range"],
+body form input[type="date"],
+body form input[type="month"],
+body form input[type="week"],
+body form input[type="time"],
+body form input[type="datetime"],
+body form input[type="datetime-local"],
+body form input[type="color"], textarea {
+    background: #222;
+	border: 1px solid #444;
+
+}
+
+body .container-slider .autoplay1 h3 a {
+	color: #C0C0C0;
+}
+
+body a,
+body h2 a,
+body .rp-menu .main-navigation ul li a,
+body #secondary ul li a {
+	color: #C0C0C0;
+}
+
+body .rp-menu {
+	background: #222;	
+	border-bottom: 1px solid #444;
+}
+
+body #theme-breadcrumb,
+body pre,
+body #commentform textarea,
+body button,
+body input,
+body optgroup,
+body select,
+body textarea {
+	background: #444;
+}
+body th {
+    background: #333;
+}
+body .slick-prev:before,
+body .slick-next:before {
+	color: #999;
+}
+
+body .wrap-yp,
+body .yp-player iframe {
+    border: 1px solid #666;
+    background: #333;
+}
+
+body .list-element {
+    border: 1px solid #555;
+    background: #444;
+    color: #eee;
+}
+
+body .testimonials-cont .testimonials-slider {
+    background: #111;
+    color: #C0C0C0;
+    border: 1px solid #444;
+}

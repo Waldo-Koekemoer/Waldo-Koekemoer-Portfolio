@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+.wsc-skill-note{
+  font-style: italic;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.wsc-skill-note span{
+  margin-right: 5px;
+}
+.skill-item-wrap{
+  margin: 10px 0;
+  border: 1px #cccccc solid;
+  padding: 10px;
+  clear: both;
+  height: auto;
+  overflow: hidden;
+  background-color: #F1F1F1;
+  cursor: default;
+  position: relative;
+}
+.skill-item-wrap .wsc-form-row{
+  margin-bottom: 10px;
+}
+.skill-item-wrap .wsc-color-row .description{
+  display:block; margin-left: 92px;
+}
+.skill-item-wrap .wsc-form-row label{
+  float: left;
+  font-weight: bold;
+  min-width: 80px;
+}
+.skill-item-wrap .btn-remove-skill-item{
+    float: right;
+    margin-right: 17px;
+    padding: 8px;
+    border: none;
+    background: url('../images/cross.png') no-repeat;
+    opacity: 1;
+    box-shadow: none;
+    height:15px;
+    width:10px;
+    border-radius: 50%;
+}
+.skill-item-wrap .btn-remove-skill-item:hover, .skill-item-wrap .btn-remove-skill-item:visited, .skill-item-wrap .btn-remove-skill-item:focus, .skill-item-wrap .btn-remove-skill-item:active{
+opacity: 0.5;
+background: url('../images/cross.png') no-repeat;
+border-radius: 50%;
+border:none !important;
+}
+#wen_skill_charts_settings_metabox label{
+  font-weight: bold;
+  min-width: 125px;
+  display: inline-block;
+}
+#wen_skill_charts_settings_metabox .wp-picker-container{
+  margin-top: -10px;
+  padding-top: 10px;
+}
+#wen_skill_charts_settings_metabox p{
+  vertical-align: middle;
+}
+#wen_skill_charts_settings_metabox h4{
+  color: #333333;
+  font-size: 1.1em;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px #CCCCCC solid;
+}
+
+span.required {
+    color: red;
+}
+
+.skill-item-wrap::before{
+    content: url('../images/dragger.png');  
+    margin-left: 750px;
+    margin-top: 70px;
+    position: absolute;
+    cursor: move;
+    padding:5px;
+
+}
+
+input.txt-skill-description.regular-text.code {
+    margin-left: 12px;
+}
+
+.skill-item-wrap .wsc-form-row .wp-picker-container {
+    margin-left: 12px;
+}
+
+input.txt-skill-percentage.regular-text.code {
+    margin-left: 12px;
+}
+
+input.txt-skill-title.regular-text.code {
+    margin-left: 12px;
+}

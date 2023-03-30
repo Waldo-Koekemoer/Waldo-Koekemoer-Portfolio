@@ -1,0 +1,6 @@
+/********* Menu Animation hinge **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: hinge;
+  animation-name: hinge;
+}

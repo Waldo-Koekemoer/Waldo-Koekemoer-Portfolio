@@ -1,0 +1,146 @@
+/*
+ * Theme page CSS
+ */
+
+.theme-help-wrap {
+	margin-top: 20px;
+	max-width: 1050px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	padding: 2% 4%;
+}
+
+.theme-help-wrap img {
+	max-width: 100%;
+	height: auto;
+}
+
+.theme-help-wrap img.screenshot {
+	border-radius: 3px;
+}
+
+.theme-help-wrap .clearfix:before, .theme-help-wrap .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.theme-help-wrap .clearfix:after {
+	clear: both;
+}
+
+.theme-help-wrap .clearfix {
+	*zoom: 1; /* For IE 6/7 only */
+}
+
+.theme-help-wrap .columns-wrapper {
+	margin-right: -4em;
+}
+
+.theme-help-wrap .columns-wrapper .column {
+	float: left;
+	padding-right: 4em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.theme-help-wrap .columns-wrapper .column-three-quarters {
+	width: 75%;
+}
+
+.theme-help-wrap .columns-wrapper .column-two-thirds {
+	width: 66.6666666666666%;
+}
+
+.theme-help-wrap .columns-wrapper .column-half {
+	width: 50%;
+}
+
+.theme-help-wrap .columns-wrapper .column-third {
+	width: 33.3333333333333%;
+}
+
+.theme-help-wrap .columns-wrapper .column-quarter {
+	width: 25%;
+}
+
+.theme-help-wrap h1 {
+	font-size: 3.0em;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 0.2em 0 0 0;
+}
+
+.theme-help-wrap h3 {
+	font-size: 1.8em;
+	line-height: 1.5em;
+	margin: 1em 0 0.6em;
+}
+
+.theme-help-wrap h4 {
+	font-size: 1.4em;
+	margin: 0.2em 0;
+}
+
+.theme-help-wrap .theme-description {
+	font-size: 1.4em;
+	margin: 1em 0;
+	line-height: 1.6em;
+}
+
+.theme-help-wrap .theme-buttons {
+	display: flex;
+	gap: 1.5vw;
+}
+
+.theme-help-wrap .theme-version,
+.theme-help-wrap .update-available {
+	font-size: 1.4em;
+	margin: 1.75em 0 0.75em;
+	line-height: 1.6em;
+}
+
+.theme-help-wrap .theme-version .version-number {
+	background: #f6f7f7;
+	padding: 0.125em 0.25em;
+	border-radius: 3px;
+}
+
+.theme-help-wrap .update-available {
+	background: #fcf9e8;
+	margin-top: 0.75em;
+	padding: 0.25em 0.5em;
+	border-radius: 3px;
+}
+
+.separator-spacing {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+	img.screenshot {
+		margin-top: 20px;
+	}
+
+	.theme-help-wrap .columns-wrapper {
+		margin-right: -2em;
+	}
+
+	.theme-help-wrap .columns-wrapper .column {
+		padding-right: 2em;
+	}
+
+	.theme-help-wrap .columns-wrapper .column.is-responsive {
+		float: none;
+		width: 100% !important;
+		padding-right: 0;
+	}
+
+	.theme-help-wrap .theme-description {
+		font-size: 1em;
+	}
+}

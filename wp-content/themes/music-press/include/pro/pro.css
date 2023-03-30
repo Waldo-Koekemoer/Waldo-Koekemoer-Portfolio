@@ -1,0 +1,71 @@
+.pro-links p {
+    font-size: 16px;
+}
+#cont-pro h1 {
+	font-weight: 800;
+	font-size: 3em;
+	padding: 20px 0;
+}
+
+#cont-pro {
+    display: inline-block;
+	width:100%;
+	max-width: 1000px;
+}
+.free-wp-theme {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+}
+
+.free-wp-theme td, .free-wp-theme th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    line-height: 18px;
+    background: #f2f2f2;
+}
+.s-white td {
+    background: #fff !important;
+}
+
+.free-wp-theme td img {
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.free-wp-theme th {
+    background: #2271b1;
+	color: #fff;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.appearance_page_fast-press-unique-identifier .notice  {
+	display: none;
+}
+
+.pro-links  {
+	background: #fff;
+	padding: 10px 20px 20px 20px;
+	font-size: 18px;
+	margin: 20px 0;
+	border: 1px solid #ddd
+}
+
+.pro-links .button {
+	border: none;
+    font-weight: 600;
+    text-shadow: 1px 1px #333;	
+}
+.pro-links .button:hover {
+    color: #fff;
+    background: #1B5887;
+}
+
+#cont-pro .pro-links .reds:hover {
+	background: red !important;
+}

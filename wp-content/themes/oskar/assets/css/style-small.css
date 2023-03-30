@@ -1,0 +1,60 @@
+/*
+Theme Name: Oskar
+Description: Responsive styling - small - default max 480px
+*/
+
+#comments {
+	padding: 15px;
+}
+
+.top-footer {
+	margin: 0;
+}
+
+.footer {
+	width: auto;
+	float: none;
+	margin: 0 0 20px !important;
+}
+
+.footer:last-child {
+	margin: 0 !important;
+}
+
+#bottom-footer {
+	text-align: center;
+}
+
+#comments {
+	padding: 10px;
+}
+
+.author-email-url {
+	margin-left: 0
+}
+
+.comment-form-author, 
+.comment-form-email, 
+.comment-form-url {
+	width: auto;
+	margin-left: 0;
+	float: none;
+}
+
+.site-header .top-search {
+	margin: 0 0 0 10px;
+}
+
+#grid-loop.layout-2,
+#grid-loop.layout-3,
+#grid-loop.layout-4,
+#main.infinite-grid.layout-2 .infinite-wrap,
+#main.infinite-grid.layout-3 .infinite-wrap,
+#main.infinite-grid.layout-4 .infinite-wrap,
+.wp-block-latest-posts.is-grid.columns-2,
+.wp-block-latest-posts.is-grid.columns-3,
+.wp-block-latest-posts.is-grid.columns-4,
+.wp-block-latest-posts.is-grid.columns-5,
+.wp-block-latest-posts.is-grid.columns-6 {
+	grid-template-columns: 100%;
+}

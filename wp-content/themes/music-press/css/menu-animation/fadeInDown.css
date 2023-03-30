@@ -1,0 +1,6 @@
+/********* Menu Animation fadeInDown **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}

@@ -1,0 +1,44 @@
+/*
+Theme Name: Oskar
+Description: Responsive styling for WooCommerce - small - default max 480px
+*/
+
+.site-header .top-account,
+.site-header .top-wishlist,
+.site-header .top-cart {
+	margin: 0 0 0 10px;
+}
+
+.woocommerce ul.products.columns-2,
+.woocommerce-page ul.products.columns-2,
+.woocommerce ul.products.columns-3,
+.woocommerce-page ul.products.columns-3,
+.woocommerce ul.products.columns-4,
+.woocommerce-page ul.products.columns-4,
+.woocommerce ul.products.columns-5,
+.woocommerce-page ul.products.columns-5,
+.woocommerce ul.products.columns-6,
+.woocommerce-page ul.products.columns-6,
+.woocommerce ul.products.columns-7,
+.woocommerce-page ul.products.columns-7,
+.woocommerce ul.products.columns-8,
+.woocommerce-page ul.products.columns-8,
+.wc-block-grid.has-2-columns .wc-block-grid__products,
+.wc-block-grid.has-3-columns .wc-block-grid__products,
+.wc-block-grid.has-4-columns .wc-block-grid__products,
+.wc-block-grid.has-5-columns .wc-block-grid__products,
+.wc-block-grid.has-6-columns .wc-block-grid__products,
+.wc-block-grid.has-7-columns .wc-block-grid__products,
+.wc-block-grid.has-8-columns .wc-block-grid__products {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+#above-footer ul.product_list_widget li {
+	float: none;
+	width: 100%;
+}
+
+#above-footer ul.product_list_widget li:nth-child(2n+1) {
+	clear: none;
+}

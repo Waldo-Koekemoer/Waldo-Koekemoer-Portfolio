@@ -1,0 +1,6 @@
+/********* Menu Animation bounceOut **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}

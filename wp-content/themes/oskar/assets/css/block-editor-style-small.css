@@ -1,0 +1,12 @@
+/*
+Theme Name: Oskar
+Description: Block editor responsive styling - small - default max 768px
+*/
+
+.wp-block-latest-posts.is-grid.columns-2,
+.wp-block-latest-posts.is-grid.columns-3,
+.wp-block-latest-posts.is-grid.columns-4,
+.wp-block-latest-posts.is-grid.columns-5,
+.wp-block-latest-posts.is-grid.columns-6{
+	grid-template-columns: 49% 49%;
+}

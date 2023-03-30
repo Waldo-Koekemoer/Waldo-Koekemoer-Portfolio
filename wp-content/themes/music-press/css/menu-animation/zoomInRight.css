@@ -1,0 +1,6 @@
+/********* Menu Animation zoomInRight **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: zoomInRight;
+  animation-name: zoomInRight;
+}

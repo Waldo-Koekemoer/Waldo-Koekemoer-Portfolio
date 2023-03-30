@@ -1,0 +1,6 @@
+/********* Menu Animation fadeInLeftBig **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}

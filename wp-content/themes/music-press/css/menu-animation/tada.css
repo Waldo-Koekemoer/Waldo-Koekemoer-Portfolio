@@ -1,0 +1,6 @@
+/********* Menu Animation tada **********/
+
+nav ul li:hover > ul {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}

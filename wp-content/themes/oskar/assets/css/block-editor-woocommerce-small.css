@@ -1,0 +1,14 @@
+/*
+Theme Name: Oskar
+Description: Block editor WooCommerce responsive styling - small - default max 768px
+*/
+
+.wc-block-grid.has-3-columns .wc-block-grid__products,
+.wc-block-grid.has-4-columns .wc-block-grid__products,
+.wc-block-grid.has-5-columns .wc-block-grid__products,
+.wc-block-grid.has-6-columns .wc-block-grid__products,
+.wc-block-grid.has-7-columns .wc-block-grid__products,
+.wc-block-grid.has-8-columns .wc-block-grid__products {
+	display: grid;
+	grid-template-columns: 49% 49%;
+}

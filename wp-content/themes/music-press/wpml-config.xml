@@ -1,0 +1,13 @@
+<wpml-config>
+  <admin-texts>
+    <key name='theme_mods_music_press'>
+		<key name='music_press_recent_post_title' />
+		<key name='button_1' />
+		<key name='button_1_link' />
+		<key name='button_2' />
+		<key name='button_2_link' />
+		<key name='music_press__return_read_more_text' />
+		<key name='music_press_copyright' />
+    </key>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,1079 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oskar 1.0.5\n"
+"POT-Creation-Date: 2023-02-24 17:49+0000\n"
+"PO-Revision-Date: 2023-01-11 16:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: UXL Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr ""
+
+#: 404.php:15
+msgid "Browse our pages."
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:62
+msgid "Previous"
+msgstr ""
+
+#: comments.php:63
+msgid "Next"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content-front-page.php:16 content-page-blank-canvas.php:16
+#: content-page.php:39 content-search.php:53 content-single.php:54
+#: content.php:90 content.php:105
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: content-front-page.php:27 content-page-blank-canvas.php:27
+#: content-page.php:50
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s = link to post-new.php
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-related.php:29
+msgid "Related"
+msgstr ""
+
+#: content-related.php:76 content-search.php:42 content.php:51
+msgid "No Title"
+msgstr ""
+
+#: content-related.php:127 content-related.php:139 content-search.php:57
+#: content.php:94 content.php:109
+msgid "Continue Reading"
+msgstr ""
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:27
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:101
+msgid "Mountain"
+msgstr ""
+
+#: functions.php:106
+msgid "Beach"
+msgstr ""
+
+#: functions.php:132
+msgid "Homepage Slider/Hero Section"
+msgstr ""
+
+#: functions.php:134
+msgid ""
+"The large image/hero/slider area below the masthead on the homepage. Add "
+"more than one Cover block to automatically create a slider."
+msgstr ""
+
+#: functions.php:142
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:151
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: functions.php:160
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:169
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:171
+msgid "Requires WooCommerce plugin."
+msgstr ""
+
+#: functions.php:179
+msgid "Shop Filters"
+msgstr ""
+
+#: functions.php:181
+msgid ""
+"Horizontal widget area for product archives. Requires WooCommerce plugin."
+msgstr ""
+
+#: functions.php:189
+msgid "Top Bar"
+msgstr ""
+
+#: functions.php:191
+msgid "Add your own content above the header."
+msgstr ""
+
+#: functions.php:199
+msgid "Offers Bar"
+msgstr ""
+
+#: functions.php:201
+msgid "Add your own content below the site masthead."
+msgstr ""
+
+#: functions.php:209
+msgid "Top Footer"
+msgstr ""
+
+#: functions.php:210
+msgid "Full width area above the footer columns."
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:230
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:240
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/colors.php:8
+msgid "Foreground"
+msgstr ""
+
+#: inc/colors.php:9
+msgid ""
+"Header scrolled background, sub-menu background, footer background, main "
+"text color"
+msgstr ""
+
+#: inc/colors.php:15
+msgid "One"
+msgstr ""
+
+#: inc/colors.php:16
+msgid "Button background and default text link color"
+msgstr ""
+
+#: inc/colors.php:22
+msgid "Two"
+msgstr ""
+
+#: inc/colors.php:29
+msgid "Three"
+msgstr ""
+
+#: inc/colors.php:36
+msgid "Four"
+msgstr ""
+
+#: inc/colors.php:52 inc/customizer/customize.php:56
+msgid "Background"
+msgstr ""
+
+#: inc/colors.php:66 inc/colors.php:98
+msgid "Light"
+msgstr ""
+
+#: inc/colors.php:71 inc/colors.php:103
+msgid "Very Light"
+msgstr ""
+
+#: inc/colors.php:77 inc/colors.php:88
+msgid "Dark"
+msgstr ""
+
+#: inc/colors.php:110
+msgid "Transparent Light"
+msgstr ""
+
+#: inc/colors.php:115
+msgid "Transparent Very Light"
+msgstr ""
+
+#: inc/colors.php:120
+msgid "Transparent Dark"
+msgstr ""
+
+#: inc/colors.php:125
+msgid "Transparent Very Dark"
+msgstr ""
+
+#: inc/colors.php:140
+msgid "Transparent to Foreground"
+msgstr ""
+
+#: inc/colors.php:145
+msgid "One to Two"
+msgstr ""
+
+#: inc/colors.php:150
+msgid "One to Three"
+msgstr ""
+
+#: inc/colors.php:155
+msgid "One to Four"
+msgstr ""
+
+#: inc/colors.php:160
+msgid "One to Two to Three to Four"
+msgstr ""
+
+#: inc/colors.php:165
+msgid "Four Color Block"
+msgstr ""
+
+#: inc/colors.php:170
+msgid "Four (Circular)"
+msgstr ""
+
+#: inc/colors.php:175
+msgid "Four (Diagonal)"
+msgstr ""
+
+#: inc/customizer/assets.php:35
+msgid "Full (original full size image)"
+msgstr ""
+
+#: inc/customizer/assets.php:39
+msgid "(exact dimensions)"
+msgstr ""
+
+#: inc/customizer/assets.php:41
+msgid "(proportional)"
+msgstr ""
+
+#: inc/customizer/assets.php:51
+msgid ""
+"With WooCommerce plugin activated, Oskar theme adds additional sections:"
+msgstr ""
+
+#: inc/customizer/assets.php:54 inc/customizer/settings/homepage.php:20
+#: inc/general.php:273
+msgid "Product Categories"
+msgstr ""
+
+#: inc/customizer/assets.php:55 inc/general.php:278
+msgid "New Products"
+msgstr ""
+
+#: inc/customizer/assets.php:56 inc/general.php:283
+msgid "Featured Products"
+msgstr ""
+
+#: inc/customizer/assets.php:57 inc/general.php:288
+msgid "On-sale Products"
+msgstr ""
+
+#: inc/customizer/assets.php:58
+msgid "Top Sellers"
+msgstr ""
+
+#: inc/customizer/assets.php:59 inc/general.php:298
+msgid "Top Rated Products"
+msgstr ""
+
+#: inc/customizer/assets.php:177 inc/typography.php:105
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/assets.php:183
+msgid "Private page:"
+msgstr ""
+
+#: inc/customizer/assets.php:190
+msgid "Reusable block:"
+msgstr ""
+
+#: inc/customizer/controls.php:89
+msgid "Search..."
+msgstr ""
+
+#: inc/customizer/controls.php:184
+msgid "More options available"
+msgstr ""
+
+#: inc/customizer/customize.php:49
+msgid ""
+"Oskar automatically creates additional lighter and darker variations of each "
+"color, available for use in the editor."
+msgstr ""
+
+#: inc/customizer/customize.php:55
+msgid "Site Title and Tagline"
+msgstr ""
+
+#: inc/customizer/customize.php:57
+msgid "Site background and light text color"
+msgstr ""
+
+#: inc/customizer/customize.php:348
+msgid "Get Oskar Pro"
+msgstr ""
+
+#: inc/customizer/sections.php:14 inc/theme-help.php:137
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/sections.php:20
+msgid "Typography & Fonts"
+msgstr ""
+
+#: inc/customizer/sections.php:26
+msgid "Advanced - Header/Footer"
+msgstr ""
+
+#: inc/customizer/sections.php:27 inc/theme-help.php:195
+msgid "Build your own custom Header and Footer."
+msgstr ""
+
+#: inc/customizer/sections.php:32
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer/sections.php:33 inc/theme-help.php:214
+msgid ""
+"Upgrade to Oskar Pro for even more cool features and customization options."
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:20
+msgid "Select either a Private Page or a Reusable Block."
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:26
+#: inc/customizer/settings/layout.php:174
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:33
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:41
+msgid ""
+"Create your content in a new page and set the page \"visibility\" to "
+"\"private\"."
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:48
+msgid ""
+"Alternatively save your content as a \"reusable block\" in the block editor."
+msgstr ""
+
+#: inc/customizer/settings/header_footer.php:55
+msgid ""
+"These options will completely override the theme header/footer and their "
+"associated widget areas."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:13
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:14
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:22
+msgid ""
+"See \"Layout\" > \"Page Title Layout\" for where the header image is used."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:28
+msgid "Posts should display..."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:35
+msgid "Pages should display..."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:43
+msgid ""
+"With WooCommerce plugin activated, Oskar theme adds Header Image options for "
+"Products and Product Categories."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:53
+msgid "Products should display..."
+msgstr ""
+
+#: inc/customizer/settings/header_image.php:64
+msgid "Product categories should display..."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:13
+#: inc/customizer/settings/homepage.php:61
+msgid "Featured Services"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:14
+msgid "Page Content (your chosen static homepage)"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:15
+msgid "Extra Page Content (select the page below)"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:21
+msgid "New products"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:22
+msgid "Featured products"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:23
+msgid "On-sale products"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:24
+msgid "Top sellers"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:25
+msgid "Top rated products"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:35
+#: inc/customizer/settings/homepage.php:42
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:36
+msgid ""
+"You should first select a Static Homepage if you have not already done so."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:43
+#: inc/customizer/settings/layout.php:238
+msgid ""
+"Check the box to display. Sortable: drag and drop into your preferred order."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:67
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:79
+msgid "Enable Zoom On Hover"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:80
+msgid "Activates the zoom effect when hovering over each featured service box."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:87
+msgid "Overlap"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:88
+msgid ""
+"How far the Featured Services should overlap the Header Hero Section. "
+"Recommended to set this to 0 if Featured Services is not the first section."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:100
+msgid "Select Pages"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:101
+msgid ""
+"By default your latest posts are displayed. Enable this option to choose a "
+"page for each featured service."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:113
+msgid "Feature "
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:119
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:127
+#: inc/customizer/settings/homepage.php:144
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:128
+msgid ""
+"Displays title and excerpt of selected page. You can add an optional hand-"
+"crafted excerpt in the page editor (make sure []excerpt is checked in Screen "
+"Options)."
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:138
+msgid "Extra Page Content"
+msgstr ""
+
+#: inc/customizer/settings/homepage.php:145
+msgid "Choose which extra page content to display on homepage."
+msgstr ""
+
+#: inc/customizer/settings/layout.php:13
+msgid "px"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:14
+msgid "em"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:15
+msgid "rem"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:20
+msgid "%"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:30
+msgid "Site"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:36
+msgid "Container Width - default: 1400px"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:62
+msgid "Site Spacing - default: 2%"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:63
+msgid ""
+"On screens narrower than the Container Width, the left/right space around "
+"the site (full-width blocks still go edge-to-edge)"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:89
+msgid "Responsive Breakpoints"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:90
+msgid "Up to maximum width."
+msgstr ""
+
+#: inc/customizer/settings/layout.php:96
+msgid "Tablet - default: 1024px"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:122
+msgid "Mobile - default: 768px"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:148
+msgid "Small - default: 480px"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:180
+msgid "Disable Search Form in Header"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:186
+msgid "Page Title Layout"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:187
+msgid ""
+"Large image header uses default \"Header Image\" or page/post \"Featured "
+"Image\" if available."
+msgstr ""
+
+#: inc/customizer/settings/layout.php:198
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:204
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:217
+msgid "Posts Image Size"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:218
+msgid ""
+"See: \"Settings\" > \"Media\" (or any active plugins that control image "
+"sizes)"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:225
+msgid "Post excerpt length"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:226
+msgid "Default setting is 20 words"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:237
+msgid "Post options"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:240
+msgid "Featured image"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:241
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:242
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:243
+msgid "Date & author"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:244
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:245
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:246
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:247
+msgid "Full content"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:248
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:249
+msgid "Comments link (only if comments enabled)"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:250
+msgid "Edit link (only if user is logged in and allowed to edit the post)"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:257
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:263
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:265
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/settings/layout.php:266
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:19
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:25
+msgid "Save Google Fonts Locally"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:26
+msgid ""
+"This option will save the selected Google fonts to your server and your "
+"website visitors will not be presented with fonts loaded directly from "
+"Google. Please note: you may still have fonts loaded from Google by another "
+"plugin. In this case you should check with the plugin in question."
+msgstr ""
+
+#: inc/customizer/settings/typography.php:32
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:40
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:48
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:56
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:64
+msgid "Font Sizes"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:65
+msgid ""
+"Oskar theme uses responsive fluid font sizes that resize according to the "
+"browser/screen size. To disable fluid sizing set Min and Max to the same "
+"size."
+msgstr ""
+
+#: inc/customizer/settings/typography.php:82
+msgid "Min"
+msgstr ""
+
+#: inc/customizer/settings/typography.php:94
+msgid "Max"
+msgstr ""
+
+#: inc/general.php:20
+msgid "Skip to content"
+msgstr ""
+
+#: inc/general.php:119
+msgid "Close Menu"
+msgstr ""
+
+#. translators: %s = link to wordpress.org
+#: inc/general.php:220
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#. translators: %1$s = link to theme page, %2$s = theme author
+#: inc/general.php:223
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: inc/general.php:293
+msgid "Top Selling Products"
+msgstr ""
+
+#: inc/general.php:417 inc/general.php:466 inc/general.php:482
+msgid "Read More"
+msgstr ""
+
+#. translators: %s = the search query
+#: inc/header-title.php:144 inc/header-title.php:169
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/header-title.php:188
+msgid "404 Error"
+msgstr ""
+
+#: inc/template-tags.php:52 inc/template-tags.php:59 inc/template-tags.php:69
+msgid " by "
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:157 inc/template-tags.php:180
+#: inc/template-tags.php:282
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:205 inc/template-tags.php:226
+#: inc/template-tags.php:299
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %2s: number of posts by this author.
+#: inc/template-tags.php:254
+#, php-format
+msgid "%2s posts"
+msgstr ""
+
+#. translators: %1$s = theme name, %2$s = theme version
+#: inc/theme-help.php:17
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/theme-help.php:17 inc/theme-help.php:28
+msgid "Oskar Theme"
+msgstr ""
+
+#: inc/theme-help.php:53
+msgid "Welcome to the Oskar theme."
+msgstr ""
+
+#. translators: %s = link to theme page
+#: inc/theme-help.php:56
+#, php-format
+msgid ""
+"Check out the %s and customize the style of your website just how you like "
+"it."
+msgstr ""
+
+#: inc/theme-help.php:56
+msgid "theme options"
+msgstr ""
+
+#: inc/theme-help.php:84
+msgid "New version available"
+msgstr ""
+
+#. translators: %s = theme name
+#: inc/theme-help.php:94
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#. translators: %s = theme version
+#: inc/theme-help.php:99
+#, php-format
+msgid "Version: %s"
+msgstr ""
+
+#: inc/theme-help.php:107
+msgid "Theme Page"
+msgstr ""
+
+#: inc/theme-help.php:107
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/theme-help.php:115
+msgid "Customize your site"
+msgstr ""
+
+#: inc/theme-help.php:119
+msgid "Identity"
+msgstr ""
+
+#: inc/theme-help.php:122
+msgid "Add a Logo, Site Icon and edit your Site Title and Tagline."
+msgstr ""
+
+#: inc/theme-help.php:127
+msgid "Homepage"
+msgstr ""
+
+#: inc/theme-help.php:130
+msgid ""
+"Choose a Home Page, Blog Page and setup the Homepage Sections including the "
+"Featured Services."
+msgstr ""
+
+#: inc/theme-help.php:140
+msgid ""
+"Container Width, Spacing, Responsive Breakpoints, Page Title Layout, Blog "
+"Grid Layout and Sidebar Position."
+msgstr ""
+
+#: inc/theme-help.php:145
+msgid "Colors"
+msgstr ""
+
+#: inc/theme-help.php:148
+msgid "Edit the theme Colors and put your own style on your website."
+msgstr ""
+
+#: inc/theme-help.php:155
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-help.php:158
+msgid ""
+"Select Fonts and optionally save Google Fonts locally, edit the Site Title, "
+"Navigation, Content and Headings Fonts and Font Sizes."
+msgstr ""
+
+#: inc/theme-help.php:163
+msgid "Header Image"
+msgstr ""
+
+#: inc/theme-help.php:166
+msgid "Upload your own Header Image and choose where to display it."
+msgstr ""
+
+#: inc/theme-help.php:173
+msgid "Menus"
+msgstr ""
+
+#: inc/theme-help.php:176
+msgid "Create a Header Menu and a Footer Menu."
+msgstr ""
+
+#: inc/theme-help.php:181
+msgid "Widgets"
+msgstr ""
+
+#: inc/theme-help.php:184
+msgid ""
+"Edit the Widget Areas including Homepage Slider/Hero, Top Bar, Offers Bar, "
+"Sidebars, Footer Columns and Shop Filters."
+msgstr ""
+
+#: inc/theme-help.php:188
+msgid "Advanced"
+msgstr ""
+
+#: inc/theme-help.php:192
+msgid "Header/Footer"
+msgstr ""
+
+#: inc/theme-help.php:200
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-help.php:203
+msgid ""
+"Add your own CSS code to customize the appearance and layout of your site."
+msgstr ""
+
+#: inc/theme-help.php:207
+msgid "Upgrade"
+msgstr ""
+
+#: inc/theme-help.php:211
+msgid "GO PRO"
+msgstr ""
+
+#. translators: %1$s = theme name, %2$s = theme author, %3$s = link to wordpress.org reviews
+#: inc/theme-help.php:222
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+
+#: inc/theme-help.php:222
+msgid "Oskar Review"
+msgstr ""
+
+#: inc/theme-help.php:222
+msgid "please rate it"
+msgstr ""
+
+#: inc/typography.php:8
+msgid "Small"
+msgstr ""
+
+#: inc/typography.php:15
+msgid "Normal"
+msgstr ""
+
+#: inc/typography.php:22
+msgid "Medium"
+msgstr ""
+
+#: inc/typography.php:29
+msgid "Large"
+msgstr ""
+
+#: inc/typography.php:36
+msgid "Extra Large"
+msgstr ""
+
+#: inc/typography.php:43
+msgid "XXL"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:31
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Oskar"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://uxlthemes.com/theme/oskar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Local Google fonts and fluid typography. Editable responsive breakpoints, "
+"custom colors, sortable homepage sections, homepage hero section or image "
+"slider with cover block support, blog grid layout variations, WooCommerce "
+"compatible with header shopping cart and customer account/login, and the "
+"option to build your own custom header and footer using any core or third "
+"party tools or plugins you want. These are just a few of the options "
+"available in the Oskar WordPress theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://uxlthemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blank Canvas"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Landing Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Transparent Header"
+msgstr ""

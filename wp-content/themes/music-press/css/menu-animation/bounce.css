@@ -1,0 +1,9 @@
+/********* Menu Animation bounce **********/
+
+
+nav ul li:hover > ul {
+  -webkit-animation-name: bounce !important;
+  animation-name: bounce !important;
+  -webkit-transform-origin: center bottom !important;
+  transform-origin: center bottom !important;
+}
